@@ -33,7 +33,7 @@ p.terminate()
 print('Finished recording')
 
 # Define the server URL for your POST request
-server_url = "http://127.0.0.1:2100/"
+server_url = "http://192.168.0.15:2100/"
 
 # Set headers (optional, but content type can be helpful for the server)
 headers = {"Content-Type": "audio/wav", "Connection": "Close"}  # Indicate WAV data
